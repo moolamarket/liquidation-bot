@@ -1,0 +1,44 @@
+{
+  "name": "aave-protocol-celo",
+  "version": "1.0.0",
+  "description": "Aave protocol adaptaion for Celo blockchain",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node automaticBot/mainMonitoring.js",
+    "up": "docker-compose --env-file .env.local up -d",
+    "init": "node db/createTables.js",
+    "down": "docker-compose --env-file .env.local down",
+    "clear": "docker-compose --env-file .env.local down -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moolamarket/moola.git"
+  },
+  "keywords": [
+    "aave",
+    "moola",
+    "celo"
+  ],
+  "author": "Oleksii Matiiasevych <oleksii@ambisafe.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moolamarket/moola/issues"
+  },
+  "homepage": "https://github.com/moolamarket/moola#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "2.4.0",
+    "bignumber.js": "^9.0.1",
+    "bluebird": "^3.7.2",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "truffle": "^5.1.50"
+  },
+  "devDependencies": {
+    "@celo/contractkit": "^1.0.1"
+  }
+}

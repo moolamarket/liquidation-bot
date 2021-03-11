@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+.idea
+.vscode
+.prettierrc
+coverage/
+database/
+QA.txt
+config.env
+
+thegraph/subgraph.yaml

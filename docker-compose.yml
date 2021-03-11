@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:5.7.32
+    ports:
+      - 3306:3306
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: JWd2e13IUH+aLda2
+      MYSQL_DATABASE: blockchain
+      MYSQL_USER: db_user
+      MYSQL_PASSWORD: kjwq294+alTqsVVs
+    restart: always
+
+volumes:
+    db_data: {}
