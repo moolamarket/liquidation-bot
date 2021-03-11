@@ -1,7 +1,7 @@
 {
-  "name": "aave-protocol-celo",
+  "name": "moola-liquidation-bot",
   "version": "1.0.0",
-  "description": "Aave protocol adaptaion for Celo blockchain",
+  "description": "Moola liquidation for Celo blockchain",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moolamarket/moola.git"
+    "url": "https://github.com/moolamarket/liquidation-bot"
   },
   "keywords": [
     "aave",
